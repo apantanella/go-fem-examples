@@ -1,5 +1,6 @@
 {
   "dimensions": "3D",
+  "_units": "Mixed: node coordinates in m (6×6 m footprint, 5 m height), E in MPa (N/mm²), body-force rho in kg/m³ and g in m/s². This combination is internally consistent: stresses in MPa are correct, displacements are in mm (NOT m). For a fully consistent N-mm-MPa system use node coordinates in mm, rho in t/mm³ (e.g. 2.4e-9), g in mm/s² (e.g. -9810).",
   "materials": [
     { "id": "concrete", "type": "isotropic_linear", "E": 30000, "nu": 0.2 }
   ],
